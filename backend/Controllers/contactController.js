@@ -18,7 +18,7 @@ const sendContactEmail = (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "kumarkelash875@gmail.com",
+    to: "imshaik67@gmail.com",
     subject: "Contact Form Submission",
     text: `You have a new contact form submission.\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
